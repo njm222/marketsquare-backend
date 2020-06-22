@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_banner_image_and_texts",
+  "info": {
+    "name": "Image and Text",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string"
+    },
+    "bannerText": {
+      "type": "richtext"
+    },
+    "bannerImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

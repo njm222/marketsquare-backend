@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "landingTitle": {
+      "type": "string"
+    },
+    "landingSubtitle": {
+      "type": "string"
+    },
+    "landingQuote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quote.quote"
+    },
+    "landingBanners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.image-and-text"
+    }
+  }
+}
