@@ -15,9 +15,9 @@
     "landingSubtitle": {
       "type": "string"
     },
-    "landingQuote": {
+    "landingQuotes": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "quote.quote"
     },
     "landingBanners": {
