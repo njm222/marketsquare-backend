@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_item_product_carousels",
+  "info": {
+    "name": "Product Carousel",
+    "icon": "clone"
+  },
+  "options": {},
+  "attributes": {
+    "productItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.image-and-text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

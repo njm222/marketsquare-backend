@@ -24,6 +24,22 @@
       "type": "component",
       "repeatable": true,
       "component": "banner.image-and-text"
+    },
+    "productContainer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.product-carousel"
+    },
+    "quoteIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
