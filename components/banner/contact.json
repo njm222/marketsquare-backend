@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_banner_contacts",
+  "info": {
+    "name": "Contact",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

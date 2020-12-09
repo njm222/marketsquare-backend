@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "bannerTitle": {
+    "title": {
       "type": "string"
     },
-    "bannerText": {
+    "text": {
       "type": "richtext"
     },
-    "bannerImage": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
