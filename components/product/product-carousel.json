@@ -6,6 +6,11 @@
   },
   "options": {},
   "attributes": {
+    "productItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.image-and-text"
+    },
     "title": {
       "type": "string"
     }

@@ -25,6 +25,11 @@
       "repeatable": true,
       "component": "banner.image-and-text"
     },
+    "productContainer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.product-carousel"
+    },
     "quoteIcon": {
       "model": "file",
       "via": "related",
@@ -35,16 +40,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "serviceItems": {
-      "type": "component",
-      "repeatable": true,
-      "component": "banner.image-and-text"
-    },
-    "contact": {
-      "type": "component",
-      "repeatable": false,
-      "component": "banner.contact"
     }
   }
 }
