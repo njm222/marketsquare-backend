@@ -2,11 +2,13 @@
   "kind": "singleType",
   "collectionName": "homes",
   "info": {
-    "name": "Home"
+    "name": "Home",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "landingTitle": {
@@ -40,6 +42,16 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "serviceItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.image-and-text"
+    },
+    "contactDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
     }
   }
 }
