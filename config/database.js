@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        uri: process.env.MongoUri
+        uri: process.env.MONGO_URI
       },
       options: {
         ssl: true
