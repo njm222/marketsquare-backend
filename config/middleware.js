@@ -6,7 +6,7 @@ module.exports = {
   },
   settings: {
     cors: {
-      origin: 'https://marketsquare-frontend.web.app',
+      origin: ['https://marketsquare-frontend.web.app', 'https://marketsquare-backend.herokuapp.com'],
     },
     favicon: {
       path: 'favicon.ico',
